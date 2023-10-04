@@ -1,3 +1,3 @@
-# Dasar Pemrograman - Jobsheet 2
+# Dasar Pemrograman - Jobsheet 
 
 Hello Github, ini adalah repository pertama saya.

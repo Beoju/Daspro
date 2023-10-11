@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class PemilihanPercobaan202{
+public class PemilihanPercobaan102{
     public static void main(String[] args) {
         Scanner input02 = new Scanner (System.in);
          System.out.println("Masukan angka: ");

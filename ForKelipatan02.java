@@ -14,6 +14,7 @@ public class ForKelipatan02 {
             jumlah += i;
             counter++;
         }
+        double rataRata = (double) jumlah / counter; // Hitung rata-rata
         System.out.printf("Banyaknya %d dari 1 sampai 50 adalah %d\n", kelipatan, counter);
         System.out.printf("Total bilangan kelipatan %d dari 1 sampai 50 adalah %d\n", kelipatan, jumlah);
 

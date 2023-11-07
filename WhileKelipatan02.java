@@ -5,16 +5,20 @@ public class WhileKelipatan02 {
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
         
-        int kelipatan = 0, jumlah = 0, counter = 0, i = 1;
-        System.out.println("Masukkan bilangan kelipatan (1-9): ");
-        kelipatan = sc.nextInt();
+        int n, i = 1;
+        float jml = 0 ,x, rata;
+        System.out.println("Banyaknya Data: ");
+        n = sc.nextInt();
 
-        while (i <= 50) {
-            if (i % kelipatan == 0){
-                jumlah += 1;
-                counter++;
-            }
+        while (i <= n) {
+            System.out.print("Data ke-"+i+": ");
+            x = sc.nextFloat();
+            jml += x;
+            i++;
         }
+        rata = jml / n;
+        System.out.println("Rata - rata: " + rata);
+        System.out.println("Jumlah: " + jml);
 
     }
 }

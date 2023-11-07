@@ -14,6 +14,7 @@ public class DoWhileCuti02 {
             konfirmasi = sc.next();
 
             if (konfirmasi.equalsIgnoreCase("y")){
+                
                 System.out.print("Jumlah hari: ");
                 jmlHari = sc.nextInt();
                 
@@ -25,6 +26,10 @@ public class DoWhileCuti02 {
                     System.out.println("Sisa jatah cuti anda tidak mencukupi");
                     break;
                 }
+                
+                // menambahkan "break" untuk menghentikan program
+            } else if (konfirmasi.equalsIgnoreCase("t")){
+                break;
             }
 
         }  while (jatahCuti > 0);

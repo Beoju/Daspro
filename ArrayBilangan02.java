@@ -14,7 +14,7 @@ public class ArrayBilangan02{
         // bil [2] = 7.5;
         // bil [3] = 2000000;
 
-        // int[] bil = {5, 13, -7, 17};
+        // int[] bil = {5.0, 12867, 7.5, 2000000};
 
         System.out.println(bil[0]);
         System.out.println(bil[1]);
